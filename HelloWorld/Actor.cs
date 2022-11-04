@@ -16,7 +16,7 @@ namespace HelloWorld
         private string _name;
         private Collider _collisionVolume;
         private Sprite _graphic;
-        private bool _isActive;
+        private bool _isActive = true;
         
         public Vector2 Position
         {

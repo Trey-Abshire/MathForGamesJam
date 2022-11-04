@@ -12,11 +12,18 @@ namespace HelloWorld
     {
         private Texture2D _texture;
         private Color _spriteColor;
+        private Color _enemyColor;
 
         public Color SpriteColor
         {
             get { return _spriteColor; }
             set { _spriteColor = value; }
+        }
+
+        public Color EnemyColor
+        {
+            get { return _enemyColor; }
+            set { _enemyColor = value; }
         }
 
         /// <summary>
@@ -57,6 +64,7 @@ namespace HelloWorld
         {
             _texture = texture;
             SpriteColor = Color.WHITE;
+            EnemyColor = Color.SKYBLUE;
         }
 
         /// <summary>
@@ -67,6 +75,7 @@ namespace HelloWorld
         {
             _texture = Raylib.LoadTexture(path);
             SpriteColor = Color.WHITE;
+            EnemyColor = Color.SKYBLUE;
         }
 
         /// <summary>

@@ -13,25 +13,25 @@ namespace HelloWorld
         private float _speed = 60;
         private Actor _target;
         private Vector2 _facing;
-        private Color _enemyColor;
-
-        public Color EnemyColor
-        {
-           get { return _enemyColor; }
-           set { _enemyColor = value; }
-        }
+        private Color _defaultColor;
 
         public Vector2 Facing
         {
             get { return _facing; }
         }
 
+        public Color DefaultColor
+        {
+            get { return _defaultColor; }
+            set { _defaultColor = value; }
+        }
+
         public Enemy(string name, Sprite sprite, int positionX, int positionY, Actor target) :
             base(name, sprite, positionX, positionY)
         {
+            _defaultColor = Graphic.EnemyColor;
             _target = target;
             _facing = new Vector2(1, 0);
-            _enemyColor = Color.SKYBLUE;
         }
         /// <summary>
         /// Gets the direction the enemy's target is in.

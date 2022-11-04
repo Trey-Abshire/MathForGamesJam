@@ -48,13 +48,15 @@ namespace HelloWorld
             if (CheckIfPlayerCollision())
             {
                 //...change their icon colors to a color that isn't their default color.
-                Graphic.SpriteColor = Color.RED;    
+                Graphic.SpriteColor = Color.RED;
+                Graphic.EnemyColor = Color.BLUE;
             }
             //otherwise... 
             else
             { 
                 //...set their icon colors to their default state.
                 Graphic.SpriteColor = _defaultColor; 
+                Graphic.EnemyColor = Color.SKYBLUE;
             }
             
             Vector2 direction = Input.GetMoveInput();

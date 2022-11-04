@@ -22,16 +22,14 @@ namespace HelloWorld
             Sprite playerGraphic = new Sprite("Images/player.png");
             Sprite enemyGraphic = new Sprite("Images/enemy.png");
 
-            Player player;
-            Enemy enemy;
-
-            player = new Player("Trey", playerGraphic, 0, 1);
-            enemy = new Enemy("Blue", enemyGraphic, 300, 300, player);
+            Player player = new Player("Trey", playerGraphic, 0, 1);
+            Enemy enemy = new Enemy("Skyblue", enemyGraphic, 300, 300, player);
 
             player.Target = enemy;
             
             _actors[0] = player;
             _actors[1] = enemy;
+            //enemy.IsActive = false;
 
             //Calls start for each actor in the scene.
             for (int i = 0; i < _actors.Length; i++)
@@ -50,7 +48,7 @@ namespace HelloWorld
                     continue;
                 }
 
-                 _actors[i].Update(deltaTime);
+                _actors[i].Update(deltaTime);
 
                 //Skips collision check if there isn't a collider attached to this actor.
                 if (_actors[i].CollisionVolume == null)
