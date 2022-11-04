@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\MathLibrary.csproj": {}
+    "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\MathLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\MathLibrary.csproj": {
+    "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\MathLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\MathLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\MathLibrary.csproj",
         "projectName": "MathLibrary",
-        "projectPath": "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\MathLibrary.csproj",
+        "projectPath": "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\MathLibrary.csproj",
         "packagesPath": "C:\\Users\\s228022\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\obj\\",
+        "outputPath": "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s228022\\AppData\\Roaming\\NuGet\\NuGet.Config",

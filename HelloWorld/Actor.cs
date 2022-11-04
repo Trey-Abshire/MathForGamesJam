@@ -16,6 +16,7 @@ namespace HelloWorld
         private string _name;
         private Collider _collisionVolume;
         private Sprite _graphic;
+        private bool _isActive;
         
         public Vector2 Position
         {
@@ -76,6 +77,12 @@ namespace HelloWorld
 
         public void SetScale(Vector2 scale) { }
         
+        public bool IsActive
+        {
+            get { return _isActive; }
+            set { _isActive = value; }
+        }
+
         public Actor (string name, Sprite sprite)
         {
             _name = name;

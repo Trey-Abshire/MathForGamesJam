@@ -17,8 +17,10 @@ namespace HelloWorld
 
         public Color EnemyColor
         {
-           get { return _enemyColor; } 
+           get { return _enemyColor; }
+           set { _enemyColor = value; }
         }
+
         public Vector2 Facing
         {
             get { return _facing; }

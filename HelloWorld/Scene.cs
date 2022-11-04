@@ -45,6 +45,11 @@ namespace HelloWorld
             //Calls update for each actor in the scene.
             for (int i = 0; i < _actors.Length; i++)
             {
+                if (!_actors[i].IsActive)
+                {
+                    continue;
+                }
+
                  _actors[i].Update(deltaTime);
 
                 //Skips collision check if there isn't a collider attached to this actor.
@@ -56,7 +61,9 @@ namespace HelloWorld
                 {
                     //Skips collision check if there isn't a collider attached to this actor.
                     if (_actors[i].CollisionVolume == null)
+                    {
                         continue;
+                    }
 
                     if (_actors[i].CheckCollision(_actors[j]))
                     {
@@ -70,6 +77,11 @@ namespace HelloWorld
         {
             for (int i = 0; i < _actors.Length; i++)
             {
+                if(!_actors[i].IsActive)
+                {
+                    continue;
+                }
+
                 _actors[i].Draw();
             }   
         }

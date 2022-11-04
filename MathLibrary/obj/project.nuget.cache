@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fjXY/m5y6WaEdPjUt2iH4CLvJMiBKa5nM36s+k5AUQav2NkoJCB4RqwrsrPw0EX9jj72P5+N7ahDT/ctOJKIJA==",
+  "dgSpecHash": "dg53ieKEW8tHmYPGjsI/SB6jW0McKInRZScpQg30Ag/LBv9npxwF9wyCQjK3B7UzfMYELYZr7AqtNpb/E2UgGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\MathLibrary\\MathLibrary.csproj",
+  "projectFilePath": "C:\\Users\\s228022\\Documents\\Projects\\MathForGamesJam\\MathLibrary\\MathLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s228022\\.nuget\\packages\\raylib-cs\\4.2.0.1\\raylib-cs.4.2.0.1.nupkg.sha512",
     "C:\\Users\\s228022\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
