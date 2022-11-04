@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uv4leVujqy8sMc8OmUMvuTHV9F/5CtX43PPEAfXFvLqe90OhJHQxW1Jhm93TYBGBfYOZWH4H/Ka59aGxC6/OTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s228022\\Documents\\Projects\\mathforgamesengine-Trey-Abshire\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s228022\\.nuget\\packages\\raylib-cs\\4.2.0.1\\raylib-cs.4.2.0.1.nupkg.sha512",
+    "C:\\Users\\s228022\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

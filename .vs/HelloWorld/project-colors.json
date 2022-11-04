@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "31212063-606c-42ad-8fc2-0d33a7d4f180": {
+      "ProjectGuid": "31212063-606c-42ad-8fc2-0d33a7d4f180",
+      "DisplayName": "HelloWorld",
+      "ColorIndex": 0
+    },
+    "4a32c5d9-7086-4a47-847c-3b40e58af996": {
+      "ProjectGuid": "4a32c5d9-7086-4a47-847c-3b40e58af996",
+      "DisplayName": "MathLibrary",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5d842feb-23cf-4067-bc80-acbb66f887fa": {
+      "ProjectGuid": "5d842feb-23cf-4067-bc80-acbb66f887fa",
+      "DisplayName": "MathLibrary",
+      "ColorIndex": 2
+    },
+    "3876db9c-87e7-42d6-af53-1202331548ce": {
+      "ProjectGuid": "3876db9c-87e7-42d6-af53-1202331548ce",
+      "DisplayName": "MathLibrary",
+      "ColorIndex": 3
+    },
+    "f6668908-4773-4dd0-b6e4-0dcb36ca21e7": {
+      "ProjectGuid": "f6668908-4773-4dd0-b6e4-0dcb36ca21e7",
+      "DisplayName": "HelloWorld",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
