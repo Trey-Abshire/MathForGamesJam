@@ -28,7 +28,7 @@ namespace HelloWorld
             player.Target = enemy;
             
             _actors[0] = player;
-            _actors[1] = enemy;
+            _actors[1] = enemy;  
             //enemy.IsActive = false;
 
             //Calls start for each actor in the scene.
